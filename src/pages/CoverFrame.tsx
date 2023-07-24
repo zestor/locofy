@@ -10,7 +10,7 @@ const CoverFrame: FunctionComponent = () => {
   return (
     <LocalizationProvider dateAdapter={AdapterDateFns}>
       <div className="relative bg-primary-contrast w-full h-[960px] overflow-hidden text-left text-xl text-primary-contrast font-components-button-large">
-        <div className="absolute top-[0px] left-[0px] bg-whitesmoke w-[1920px] h-[960px]" />
+        <div className="absolute top-[0px] left-[0px] bg-whitesmoke-200 w-[1920px] h-[960px]" />
         <img
           className="absolute top-[0px] left-[297.9px] w-[1302.1px] h-[960px] object-cover"
           alt=""
@@ -121,11 +121,11 @@ const CoverFrame: FunctionComponent = () => {
                               Arrival
                             </div>
                           </div>
-                          <div className="self-stretch overflow-hidden flex flex-row py-[11.213094711303711px] px-0 items-center justify-start gap-[5.98px] text-center text-dimgray">
+                          <div className="self-stretch overflow-hidden flex flex-row py-[11.213094711303711px] px-0 items-center justify-start gap-[5.98px] text-center text-dimgray-200">
                             <div className="hidden flex-row items-start justify-start gap-[5.98px]">
                               <div className="flex flex-col items-start justify-start">
                                 <div className="rounded-[11.96px] bg-gainsboro-100 flex flex-row p-[2.9901583194732666px] items-center justify-start">
-                                  <div className="rounded-[47.84px] bg-silver w-[17.94px] h-[17.94px] overflow-hidden shrink-0 hidden flex-row items-center justify-center">
+                                  <div className="rounded-[47.84px] bg-silver-200 w-[17.94px] h-[17.94px] overflow-hidden shrink-0 hidden flex-row items-center justify-center">
                                     <div className="self-stretch flex-1 relative tracking-[0.3px] leading-[166%] flex items-center justify-center">
                                       F
                                     </div>
@@ -144,7 +144,7 @@ const CoverFrame: FunctionComponent = () => {
                               </div>
                               <div className="flex flex-col items-start justify-start">
                                 <div className="rounded-[11.96px] bg-gainsboro-100 flex flex-row p-[2.9901583194732666px] items-center justify-start">
-                                  <div className="rounded-[47.84px] bg-silver w-[17.94px] h-[17.94px] overflow-hidden shrink-0 hidden flex-row items-center justify-center">
+                                  <div className="rounded-[47.84px] bg-silver-200 w-[17.94px] h-[17.94px] overflow-hidden shrink-0 hidden flex-row items-center justify-center">
                                     <div className="self-stretch flex-1 relative tracking-[0.3px] leading-[166%] flex items-center justify-center">
                                       F
                                     </div>
@@ -206,7 +206,7 @@ const CoverFrame: FunctionComponent = () => {
                 Upcoming Flight
               </b>
               <div className="self-stretch flex flex-row items-start justify-start gap-[26.91px] text-[17.94px] text-cornflowerblue-300 md:flex-col">
-                <div className="rounded-[5.98px] flex flex-col p-[14.950791358947754px] items-start justify-start gap-[15.7px] border-[0.7px] border-solid border-whitesmoke lg:w-[520px] md:w-full md:block md:mb-[30px]">
+                <div className="rounded-[5.98px] flex flex-col p-[14.950791358947754px] items-start justify-start gap-[15.7px] border-[0.7px] border-solid border-whitesmoke-200 lg:w-[520px] md:w-full md:block md:mb-[30px]">
                   <div className="self-stretch flex flex-row items-center justify-between">
                     <div className="relative w-[53.82px] h-[34.39px]">
                       <b className="absolute top-[0px] left-[0px] tracking-[0.04em] capitalize inline-block w-[33.44px] h-[20.93px]">
@@ -235,7 +235,7 @@ const CoverFrame: FunctionComponent = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="self-stretch relative box-border h-[0.75px] border-t-[0.7px] border-solid border-whitesmoke md:w-full" />
+                  <div className="self-stretch relative box-border h-[0.75px] border-t-[0.7px] border-solid border-whitesmoke-200 md:w-full" />
                   <div className="self-stretch flex flex-row items-center justify-between text-[10.47px] text-gray-100">
                     <div className="relative tracking-[0.02em] capitalize inline-block w-[152.42px] shrink-0">
                       Departs on: 1 May, 08:00 AM
@@ -246,7 +246,7 @@ const CoverFrame: FunctionComponent = () => {
                     </div>
                   </div>
                 </div>
-                <div className="relative box-border w-[0.75px] h-[109.13px] border-r-[0.7px] border-solid border-whitesmoke md:hidden" />
+                <div className="relative box-border w-[0.75px] h-[109.13px] border-r-[0.7px] border-solid border-whitesmoke-200 md:hidden" />
                 <div className="flex-1 flex flex-col items-start justify-start gap-[14.95px] text-[13.46px] text-lightgray md:w-full md:flex-[unset] md:self-stretch">
                   <div className="self-stretch relative tracking-[0.04em] uppercase">
                     Prepare for your trip
@@ -479,7 +479,7 @@ const CoverFrame: FunctionComponent = () => {
                     alt=""
                     src="/unsplash5mv818tzxeo@2x.png"
                   />
-                  <div className="self-stretch rounded-t-none rounded-b-[7.48px] bg-primary-contrast flex flex-col py-[14.950791358947754px] px-[11.960633277893066px] items-center justify-center border-[0.7px] border-solid border-whitesmoke">
+                  <div className="self-stretch rounded-t-none rounded-b-[7.48px] bg-primary-contrast flex flex-col py-[14.950791358947754px] px-[11.960633277893066px] items-center justify-center border-[0.7px] border-solid border-whitesmoke-200">
                     <div className="self-stretch flex flex-row items-center justify-start">
                       <div className="flex-1 flex flex-col items-start justify-start gap-[2.24px]">
                         <div className="self-stretch relative text-[14.95px] tracking-[0.02em] font-medium font-components-button-large text-darkslategray-200 text-left">
@@ -501,7 +501,7 @@ const CoverFrame: FunctionComponent = () => {
                     alt=""
                     src="/unsplashj82dskoxvy8@2x.png"
                   />
-                  <div className="self-stretch rounded-t-none rounded-b-[7.48px] bg-primary-contrast flex flex-col py-[14.950791358947754px] px-[11.960633277893066px] items-center justify-center border-[0.7px] border-solid border-whitesmoke">
+                  <div className="self-stretch rounded-t-none rounded-b-[7.48px] bg-primary-contrast flex flex-col py-[14.950791358947754px] px-[11.960633277893066px] items-center justify-center border-[0.7px] border-solid border-whitesmoke-200">
                     <div className="self-stretch flex flex-row items-center justify-start">
                       <div className="flex-1 flex flex-col items-start justify-start gap-[2.24px]">
                         <div className="self-stretch relative text-[14.95px] tracking-[0.02em] font-medium font-components-button-large text-darkslategray-200 text-left">
@@ -523,7 +523,7 @@ const CoverFrame: FunctionComponent = () => {
                     alt=""
                     src="/unsplash4ezkckxolre@2x.png"
                   />
-                  <div className="self-stretch rounded-t-none rounded-b-[7.48px] bg-primary-contrast flex flex-col py-[14.950791358947754px] px-[11.960633277893066px] items-center justify-center border-[0.7px] border-solid border-whitesmoke">
+                  <div className="self-stretch rounded-t-none rounded-b-[7.48px] bg-primary-contrast flex flex-col py-[14.950791358947754px] px-[11.960633277893066px] items-center justify-center border-[0.7px] border-solid border-whitesmoke-200">
                     <div className="self-stretch flex flex-row items-center justify-start">
                       <div className="flex-1 flex flex-col items-start justify-start gap-[2.24px]">
                         <div className="self-stretch relative text-[14.95px] tracking-[0.02em] font-medium font-components-button-large text-darkslategray-200 text-left">
@@ -545,7 +545,7 @@ const CoverFrame: FunctionComponent = () => {
                     alt=""
                     src="/unsplashuyqmxhjr3ne@2x.png"
                   />
-                  <div className="self-stretch rounded-t-none rounded-b-[7.48px] bg-primary-contrast flex flex-col py-[14.950791358947754px] px-[11.960633277893066px] items-center justify-center border-[0.7px] border-solid border-whitesmoke">
+                  <div className="self-stretch rounded-t-none rounded-b-[7.48px] bg-primary-contrast flex flex-col py-[14.950791358947754px] px-[11.960633277893066px] items-center justify-center border-[0.7px] border-solid border-whitesmoke-200">
                     <div className="self-stretch flex flex-row items-center justify-start">
                       <div className="flex-1 flex flex-col items-start justify-start gap-[2.24px]">
                         <div className="self-stretch relative text-[14.95px] tracking-[0.02em] font-medium font-components-button-large text-darkslategray-200 text-left">
@@ -597,7 +597,7 @@ const CoverFrame: FunctionComponent = () => {
               <div className="self-stretch flex flex-row items-center justify-start ml-[-12px] mr-[-12px] lg:pr-10 lg:box-border lg:ml-[-12px] lg:mr-[-50px] md:mr-[-50px] md:ml-[-12px] sm:flex-col sm:pr-0 sm:box-border sm:mr-[-12px] sm:ml-[-12px]">
                 <div className="self-stretch flex-1 flex flex-row py-0 px-[8.970474243164062px] box-border items-start justify-center w-3/12 md:w-[33.33%] sm:w-full sm:flex-[unset] sm:self-stretch">
                   <a
-                    className="[text-decoration:none] self-stretch flex-1 rounded-[7.48px] bg-primary-contrast box-border flex flex-col py-[11.213094711303711px] px-[9.71801471710205px] items-start justify-start gap-[17.19px] w-3/12 border-[0.7px] border-solid border-whitesmoke hover:bg-gainsboro-200 lg:w-[25%!important] md:w-full sm:w-[100%!important] sm:mb-5"
+                    className="[text-decoration:none] self-stretch flex-1 rounded-[7.48px] bg-primary-contrast box-border flex flex-col py-[11.213094711303711px] px-[9.71801471710205px] items-start justify-start gap-[17.19px] w-3/12 border-[0.7px] border-solid border-whitesmoke-200 hover:bg-gainsboro-200 lg:w-[25%!important] md:w-full sm:w-[100%!important] sm:mb-5"
                     href="#"
                   >
                     <img
@@ -647,7 +647,7 @@ const CoverFrame: FunctionComponent = () => {
                 </div>
                 <div className="self-stretch flex-1 flex flex-row py-0 px-[8.970474243164062px] box-border items-start justify-center w-3/12 md:w-[33.33%] sm:w-full sm:flex-[unset] sm:self-stretch">
                   <a
-                    className="[text-decoration:none] self-stretch flex-1 rounded-[7.48px] bg-primary-contrast box-border flex flex-col py-[11.213094711303711px] px-[9.71801471710205px] items-start justify-start gap-[17.19px] w-3/12 border-[0.7px] border-solid border-whitesmoke hover:bg-gainsboro-200 lg:w-[25%!important] md:w-full sm:w-[100%!important] sm:mb-5"
+                    className="[text-decoration:none] self-stretch flex-1 rounded-[7.48px] bg-primary-contrast box-border flex flex-col py-[11.213094711303711px] px-[9.71801471710205px] items-start justify-start gap-[17.19px] w-3/12 border-[0.7px] border-solid border-whitesmoke-200 hover:bg-gainsboro-200 lg:w-[25%!important] md:w-full sm:w-[100%!important] sm:mb-5"
                     href="#"
                   >
                     <img
@@ -692,7 +692,7 @@ const CoverFrame: FunctionComponent = () => {
                 </div>
                 <div className="self-stretch flex-1 flex flex-row py-0 px-[8.970474243164062px] box-border items-start justify-center w-3/12 md:w-[33.33%] sm:w-full sm:flex-[unset] sm:self-stretch">
                   <a
-                    className="[text-decoration:none] self-stretch flex-1 rounded-[7.48px] bg-primary-contrast box-border flex flex-col py-[11.213094711303711px] px-[9.71801471710205px] items-start justify-start gap-[17.19px] w-3/12 border-[0.7px] border-solid border-whitesmoke hover:bg-gainsboro-200 lg:w-[25%!important] md:w-full sm:flex sm:w-[100%!important]"
+                    className="[text-decoration:none] self-stretch flex-1 rounded-[7.48px] bg-primary-contrast box-border flex flex-col py-[11.213094711303711px] px-[9.71801471710205px] items-start justify-start gap-[17.19px] w-3/12 border-[0.7px] border-solid border-whitesmoke-200 hover:bg-gainsboro-200 lg:w-[25%!important] md:w-full sm:flex sm:w-[100%!important]"
                     href="#"
                   >
                     <img
@@ -735,7 +735,7 @@ const CoverFrame: FunctionComponent = () => {
                 </div>
                 <div className="self-stretch flex-1 flex flex-row py-0 px-[8.970474243164062px] box-border items-start justify-center w-3/12 md:hidden md:w-[33.33%] sm:flex-[unset] sm:self-stretch">
                   <a
-                    className="[text-decoration:none] self-stretch flex-1 rounded-[7.48px] bg-primary-contrast box-border flex flex-col py-[11.213094711303711px] px-[9.71801471710205px] items-start justify-start gap-[17.19px] w-3/12 border-[0.7px] border-solid border-whitesmoke hover:bg-gainsboro-200 lg:w-[25%!important] md:w-[33.33%!important] sm:flex sm:w-[100%!important]"
+                    className="[text-decoration:none] self-stretch flex-1 rounded-[7.48px] bg-primary-contrast box-border flex flex-col py-[11.213094711303711px] px-[9.71801471710205px] items-start justify-start gap-[17.19px] w-3/12 border-[0.7px] border-solid border-whitesmoke-200 hover:bg-gainsboro-200 lg:w-[25%!important] md:w-[33.33%!important] sm:flex sm:w-[100%!important]"
                     href="#"
                   >
                     <img
@@ -812,7 +812,7 @@ const CoverFrame: FunctionComponent = () => {
                     Get weekly updates
                   </b>
                 </div>
-                <div className="self-stretch rounded-[8.97px] bg-primary-contrast shadow-[0px_0px_17.94px_rgba(0,_0,_0,_0.03)] flex flex-col py-[20.931108474731445px] px-[22.426189422607422px] items-start justify-start gap-[12.71px] text-left text-slategray border-[0.7px] border-solid border-whitesmoke">
+                <div className="self-stretch rounded-[8.97px] bg-primary-contrast shadow-[0px_0px_17.94px_rgba(0,_0,_0,_0.03)] flex flex-col py-[20.931108474731445px] px-[22.426189422607422px] items-start justify-start gap-[12.71px] text-left text-slategray border-[0.7px] border-solid border-whitesmoke-200">
                   <div className="self-stretch flex flex-col items-start justify-start">
                     <div className="self-stretch relative leading-[25.42px]">
                       Fill in your details to join the party!

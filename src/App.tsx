@@ -4,6 +4,9 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import ProductPage from "./pages/ProductPage";
+import Homepage from "./pages/Homepage";
+import ShoppingCart from "./pages/ShoppingCart";
 import CoverFrame from "./pages/CoverFrame";
 import { useEffect } from "react";
 
@@ -27,6 +30,18 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/homepage":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/shopping-cart":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/coverframe":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -45,7 +60,10 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<CoverFrame />} />
+      <Route path="/" element={<ProductPage />} />
+      <Route path="/homepage" element={<Homepage />} />
+      <Route path="/shopping-cart" element={<ShoppingCart />} />
+      <Route path="/coverframe" element={<CoverFrame />} />
     </Routes>
   );
 }
