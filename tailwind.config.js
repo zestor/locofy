@@ -4,24 +4,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        whitesmoke: {
-          "100": "#fafaf5",
-          "200": "#eaeaea",
-        },
+        black: "#000",
+        darkolivegreen: "#426b1f",
         gainsboro: {
           "100": "#e0e0e0",
           "200": "rgba(226, 226, 226, 0.1)",
           "300": "#e6e6e6",
         },
-        dimgray: {
-          "100": "#6d6d6d",
-          "200": "#616161",
-        },
-        darkolivegreen: "#426b1f",
-        black: "#000",
-        silver: {
-          "100": "#c2c2c2",
-          "200": "#bdbdbd",
+        whitesmoke: {
+          "100": "#fafaf5",
+          "200": "#eaeaea",
         },
         gray: {
           "100": "#8e8e94",
@@ -29,6 +21,14 @@ module.exports = {
           "300": "rgba(0, 0, 0, 0.23)",
           "400": "rgba(255, 255, 255, 0.2)",
           "500": "rgba(0, 0, 0, 0.06)",
+        },
+        dimgray: {
+          "100": "#6d6d6d",
+          "200": "#616161",
+        },
+        silver: {
+          "100": "#c2c2c2",
+          "200": "#bdbdbd",
         },
         "text-primary": "rgba(0, 0, 0, 0.87)",
         orange: "#f99a0e",
@@ -71,11 +71,11 @@ module.exports = {
       },
     },
     fontSize: {
-      base: "16px",
-      xl: "20px",
-      "45xl": "64px",
-      "13xl": "32px",
       sm: "14px",
+      xl: "20px",
+      base: "16px",
+      "13xl": "32px",
+      "45xl": "64px",
       mini: "15px",
       xs: "12px",
       "sm-5": "13.5px",

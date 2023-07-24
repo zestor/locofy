@@ -5,6 +5,10 @@ const ShoppingCart: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onTomatoContainerClick = useCallback(() => {
+    navigate("/product-page");
+  }, [navigate]);
+
+  const onWorldPeasTextClick = useCallback(() => {
     navigate("/");
   }, [navigate]);
 
@@ -140,7 +144,10 @@ const ShoppingCart: FunctionComponent = () => {
         <div className="absolute w-[calc(100%_-_190px)] right-[95px] bottom-[-1px] left-[95px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] box-border h-0.5 border-t-[2px] border-solid border-gainsboro-300" />
       </div>
       <div className="absolute w-full top-[0px] right-[0px] left-[0px] h-28 overflow-hidden text-center text-base">
-        <div className="absolute top-[41px] left-[96px] text-13xl tracking-[-0.01em] leading-[100%] font-medium font-newsreader text-darkolivegreen text-left">
+        <div
+          className="absolute top-[41px] left-[96px] text-13xl tracking-[-0.01em] leading-[100%] font-medium font-newsreader text-darkolivegreen text-left cursor-pointer"
+          onClick={onWorldPeasTextClick}
+        >
           World Peas
         </div>
         <div className="absolute top-[45.5px] right-[657px] leading-[130%]">

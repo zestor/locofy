@@ -1,6 +1,13 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 
 const ProductPage: FunctionComponent = () => {
+  const navigate = useNavigate();
+
+  const onShopTextClick = useCallback(() => {
+    navigate("/shopping-cart");
+  }, [navigate]);
+
   return (
     <div className="relative rounded-3xl bg-whitesmoke-100 box-border w-full h-[1024px] overflow-hidden flex flex-col items-center justify-center gap-[40px] text-center text-base text-black font-inter border-[2px] border-solid border-gainsboro-300">
       <div className="w-[1440px] overflow-hidden flex flex-col items-center justify-start">
@@ -9,7 +16,12 @@ const ProductPage: FunctionComponent = () => {
             World Peas
           </div>
           <div className="absolute top-[45.5px] left-[744px] w-[302px] h-[21px] overflow-hidden flex flex-row items-center justify-start gap-[48px]">
-            <div className="relative leading-[130%]">Shop</div>
+            <div
+              className="relative leading-[130%] cursor-pointer"
+              onClick={onShopTextClick}
+            >
+              Shop
+            </div>
             <div className="relative leading-[130%]">Newstand</div>
             <div className="relative leading-[130%]">Who we are</div>
           </div>
